@@ -1,5 +1,5 @@
 <h1 align="center">Girdle</h1>
-<img src="https://i.imgur.com/PEwDnpP.png">
+<img src="https://i.imgur.com/QpVVKgm.png">
 <br>
 <p>Girdle is a web application that is a clone of the popular word game Wordle.</p>
 
