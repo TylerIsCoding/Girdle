@@ -52,6 +52,9 @@ body {
     height: 1.75em;
 }
 
+.key {
+}
+
 .key:hover,
 .key:focus {
     --lightness-offset: 10%;
