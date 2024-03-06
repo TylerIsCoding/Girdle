@@ -249,3 +249,71 @@ body {
         margin-bottom: 1em;
     }
 }
+
+@media screen and (max-width: 850px) {
+    .guess-grid {
+        grid-template-columns: repeat(5, 4.5em);
+        grid-template-rows: repeat(6, 4.5em);
+        margin-bottom: 2em;
+    }
+    .keyboard {
+        grid-template-columns: repeat(20, minmax(auto, 1.7em));
+        grid-auto-rows: 4em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .guess-grid {
+        grid-template-columns: repeat(5, 5em);
+        grid-template-rows: repeat(6, 5em);
+        margin-bottom: 2em;
+    }
+    .keyboard {
+        grid-template-columns: repeat(20, minmax(auto, 1.7em));
+        grid-auto-rows: 4em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .guess-grid {
+        grid-template-columns: repeat(5, 6em);
+        grid-template-rows: repeat(6, 6em);
+        margin-bottom: 2em;
+    }
+    .keyboard {
+        grid-auto-rows: 5em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .guess-grid {
+        grid-template-columns: repeat(5, 6em);
+        grid-template-rows: repeat(6, 6em);
+        margin-bottom: 6em;
+    }
+    .keyboard {
+        grid-auto-rows: 6em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .guess-grid {
+        grid-template-columns: repeat(5, 7em);
+        grid-template-rows: repeat(6, 7em);
+        margin-bottom: 7em;
+    }
+    .keyboard {
+        grid-auto-rows: 7em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .guess-grid {
+        grid-template-columns: repeat(5, 7em);
+        grid-template-rows: repeat(6, 7em);
+        margin-bottom: 4em;
+    }
+    .keyboard {
+        grid-auto-rows: 5em;
+    }
+}
