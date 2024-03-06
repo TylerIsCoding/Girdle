@@ -15367,6 +15367,7 @@ function pressKey(key) {
 }
 
 function deleteKey() {
+    console.log("delete key hit");
     const activeTiles = getActiveTiles();
     const lastTile = activeTiles[activeTiles.length - 1];
     if (lastTile == null) return;
